@@ -1,8 +1,12 @@
-# SLAPP-106 Documentation
+# SLAPP-106 Instrumentation Ticket: STATUS
 
-This repository contains visual documentation for various app events and user interactions.
+## Remaining items
+1. PowerSync, db download, delta files events and bidirectional states
+2. Performance metrics (load time, API response time (Right now working APIs: Authentication, Technician clockings, Timecard))
+3. OS Permission Events
+4. Error and crash tracking Sentry
 
-## Table of Contents
+## DONE: Table of Contents
 
 - [App Lifecycle Events](#app-lifecycle-events)
 - [Network Events](#network-events)
@@ -59,10 +63,10 @@ These events monitor network connectivity and quality changes.
 These events track user login and logout activities.
 
 ### User Logged In
-![User Logged In](user%20logged%20in.png)
+![User Logged In](user_logged_in.png)
 
 ### User Logged Out
-![User Logged Out](user%20logged%20out.png)
+![User Logged Out](user_logged_out.png)
 
 ---
 

@@ -12,6 +12,7 @@
 - [Network Events](#network-events)
 - [User Authentication](#user-authentication)
 - [User Actions](#user-actions)
+- [Performance Metrics](#performance-metrics)
 - [Screen Views](#screen-views)
 
 ---
@@ -91,6 +92,21 @@ These events capture various user interactions within the application.
 
 ### Toggle Button
 ![Toggle Button](user_action_toggle_button.png)
+
+---
+
+## Performance Metrics
+
+These events track application performance including load times and API response times.
+
+### App Load Time
+![App Load Time](performance_metric_%20app_load_time.png)
+
+### API Response Time - Success
+![API Response Time Success](performance_metric_api_response_time_success.png)
+
+### API Response Time - Failure
+![API Response Time Failure](performance_metric_api_response_time_failure.png)
 
 ---
 

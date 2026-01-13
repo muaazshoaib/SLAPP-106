@@ -1,11 +1,5 @@
 # SLAPP-106 Instrumentation Ticket: STATUS
 
-## Remaining items
-1. PowerSync, db download, delta files events and bidirectional states
-2. Performance metrics (load time, API response time (Right now working APIs: Authentication, Technician clockings, Timecard))
-3. OS Permission Events
-4. Error and crash tracking Sentry
-
 ## DONE: Table of Contents
 
 - [App Lifecycle Events](#app-lifecycle-events)

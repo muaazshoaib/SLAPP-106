@@ -1,12 +1,15 @@
 # SLAPP-106 Instrumentation Ticket: STATUS
 
-## DONE: Table of Contents
+This repository contains visual documentation for various app events, user interactions, and performance metrics that are tracked within the application.
+
+## Table of Contents
 
 - [App Lifecycle Events](#app-lifecycle-events)
 - [Network Events](#network-events)
 - [User Authentication](#user-authentication)
 - [User Actions](#user-actions)
 - [Performance Metrics](#performance-metrics)
+- [PowerSync Events](#powersync-events)
 - [Screen Views](#screen-views)
 
 ---
@@ -104,6 +107,21 @@ These events track application performance including load times and API response
 
 ---
 
+## PowerSync Events
+
+These events track PowerSync connection status, synchronization states, and performance metrics.
+
+### PowerSync Connection Time
+![PowerSync Connection Time](performance_metric_powersync_connection_time.png)
+
+### PowerSync Connection Status - Connected
+![PowerSync Connected](powersync_connection_status_%20connected.png)
+
+### PowerSync Connection Status - Disconnected
+![PowerSync Disconnected](powersync_connection_status_%20disconnected.png)
+
+---
+
 ## Screen Views
 
 ### Screen View
@@ -111,6 +129,18 @@ These events track application performance including load times and API response
 
 ---
 
-## Notes
+---
+
+## Summary
+
+This documentation covers the following implemented instrumentation features:
+
+- ✅ **App Lifecycle Events** - Complete tracking of app state transitions
+- ✅ **Network Events** - Comprehensive network connectivity monitoring
+- ✅ **User Authentication** - Login and logout event tracking
+- ✅ **User Actions** - Various user interaction tracking (buttons, scrolls, links, etc.)
+- ✅ **Performance Metrics** - App load time and API response time tracking
+- ✅ **PowerSync Events** - PowerSync connection status and connection time tracking
+- ✅ **Screen Views** - Screen view tracking
 
 All images in this repository are screenshots documenting various events and interactions that can be tracked within the application. These visual references help understand the different types of events that are monitored and logged.
